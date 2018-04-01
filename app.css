@@ -24,27 +24,46 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	width: 100%;
+	display: flex;
+	flex-direction: row;
 }
 
-.container {
+.ingredients_container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 55%;
+	height: 100%;
+}
+
+.burrito_container {
+	width: 45%;
+	height: 100%;
 }
 
 .ingredients {
-	display: inline-block;
 	border: 3px solid #73AD21;
-	width: 500px;
-	height: 500px;
+	width: 40%;
+	height: 40%;
+	margin: 5%
 }
 
-.ingredients img {
+.burrito {
+	border: 3px solid #73AD21;
+	width: 90%;
+	height: 40%;
+	margin: 50% 5% 50% 5%;
+}
+
+.burrito img {
+	width: 300px;
+	height: 300px;
+}
+
+/* .ingredients img {
 	width: 500px;
 	height: 500px;
-}
+} */
 
 /****** Media queries
 ***************************/
