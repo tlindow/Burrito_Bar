@@ -14,7 +14,7 @@
 </head>
 <body>
   <div class="ingredients_container">
-    <div class=ingredients onclick="add_ingredients()">1
+    <div class=ingredients id="i1" onclick="add_ingredients()">1
     </div>
     <div class=ingredients onclick="add_ingredients()">2
     </div>
@@ -27,6 +27,9 @@
     <div class="burrito">A
       <img id="base" src="img/Tortilla.png">
     </div>
+    <button onclick="next_ingredients()">
+      next
+    </buttton>
   </div>
   <script src="app.js"></script>
 </body>
