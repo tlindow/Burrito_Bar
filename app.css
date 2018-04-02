@@ -48,16 +48,17 @@ body {
 	margin: 5%
 }
 
-.burrito {
+#burrito {
 	border: 3px solid #73AD21;
 	width: 90%;
 	height: 40%;
 	margin: 50% 5% 50% 5%;
 }
 
-.burrito img {
+#burrito img {
 	width: 300px;
 	height: 300px;
+	position: absolute;
 }
 
 /* .ingredients img {

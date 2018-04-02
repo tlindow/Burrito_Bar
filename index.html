@@ -14,18 +14,21 @@
 </head>
 <body>
   <div class="ingredients_container">
-    <div class=ingredients id="i1" onclick="add_ingredients()">1
+    <div class=ingredients id="i1" onclick="new_burrito()">1
     </div>
-    <div class=ingredients onclick="add_ingredients()">2
+    <div class=ingredients id="i2" onclick="new_burrito()">2
     </div>
-    <div class=ingredients onclick="add_ingredients()">3
+    <div class=ingredients id="i3" onclick="new_burrito()">3
     </div>
-    <div class=ingredients onclick="add_ingredients()">4
+    <div class=ingredients id="i4" onclick="new_burrito()">4
     </div>
   </div>
   <div class="burrito_container">
-    <div class="burrito">A
-      <img id="base" src="img/Tortilla.png">
+    <div id="burrito">A
+      <img id="burrito_1" src="img/Tortilla.png">
+      <img id="burrito_2" src="img/chicken.png">
+      <img id="burrito_3" src="img/corn.png">
+      <img id="burrito_4" src="img/DicedTomatoes.png">
     </div>
     <button onclick="next_ingredients()">
       next
